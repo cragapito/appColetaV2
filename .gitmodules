@@ -1,0 +1,3 @@
+[submodule "+apt"]
+	path = +apt
+	url = https://github.com/cragapito/AppColetaAPT.git

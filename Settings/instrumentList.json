@@ -1,28 +1,4 @@
 [
-    {
-    "Family": "GPS",
-    "Name": "GPS USB/Serial",
-    "Type": "Serial",
-    "Parameters": {
-      "Port": "COM2",
-      "BaudRate": 9600,
-      "Timeout": 3
-    },
-    "Description": "GPS Garmin",
-    "Enable": 1
-  },
-  {
-    "Family": "GPS",
-    "Name": "GPS TCPIP",
-    "Type": "TCPIP Socket",
-    "Parameters": {
-      "IP": "192.168.10.30",
-      "Port": "11123",
-      "Timeout": 5
-    },
-    "Description": "GPS2IP (iOS)",
-    "Enable": 0
-  },
   {
     "Family": "Receiver",
     "Name": "Tektronix SA2500",
@@ -33,6 +9,18 @@
       "Timeout": 5
     },
     "Description": "Modo servidor/cliente. Loopback (127.0.0.1).",
+    "Enable": 1
+  },
+  {
+    "Family": "Receiver",
+    "Name": "Tektronix SA2500",
+    "Type": "TCPIP Socket",
+    "Parameters": {
+      "IP": "192.168.48.2",
+      "Port": "34835",
+      "Timeout": 5
+    },
+    "Description": "GR03 - local",
     "Enable": 1
   },
   {
@@ -57,7 +45,7 @@
       "Timeout": 5
     },
     "Description": "EMSat",
-    "Enable": 1
+    "Enable": 0
   },
   {
     "Family": "Receiver",
@@ -81,7 +69,7 @@
       "Timeout": 5
     },
     "Description": "GR08",
-    "Enable": 1
+    "Enable": 0
   },
   {
     "Family": "Receiver",
@@ -95,7 +83,7 @@
     "Description": "GR08",
     "Enable": 0
   },
-    {
+  {
     "Family": "Receiver",
     "Name": "Keysight N9936B",
     "Type": "TCPIP Socket",
@@ -105,19 +93,7 @@
       "Timeout": 5
     },
     "Description": "GR08",
-    "Enable": 1
-  },
-    {
-    "Family": "Receiver",
-    "Name": "Tektronix SA2500",
-    "Type": "TCPIP Socket",
-    "Parameters": {
-      "IP": "192.168.1.105",
-      "Port": "34835",
-      "Timeout": 5
-    },
-    "Description": "GR08",
-    "Enable": 1
+    "Enable": 0
   },
   {
     "Family": "Receiver",
@@ -129,7 +105,7 @@
       "Timeout": 5
     },
     "Description": "ETM Uberlândia/MG",
-    "Enable": 1
+    "Enable": 0
   },
   {
     "Family": "Receiver",
@@ -144,6 +120,30 @@
       "Localhost_publicIP": "73.237.33.238"
     },
     "Description": "ETM Uberlândia/MG",
-    "Enable": 1
+    "Enable": 0
+  },
+  {
+    "Family": "GPS",
+    "Name": "GPS USB/Serial",
+    "Type": "Serial",
+    "Parameters": {
+      "Port": "COM2",
+      "BaudRate": 9600,
+      "Timeout": 3
+    },
+    "Description": "GPS Garmin",
+    "Enable": 0
+  },
+  {
+    "Family": "GPS",
+    "Name": "GPS TCPIP",
+    "Type": "TCPIP Socket",
+    "Parameters": {
+      "IP": "192.168.10.30",
+      "Port": "11123",
+      "Timeout": 5
+    },
+    "Description": "GPS2IP (iOS)",
+    "Enable": 0
   }
 ]

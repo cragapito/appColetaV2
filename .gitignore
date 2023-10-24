@@ -1,3 +1,5 @@
 # List of untracked files to ignore
 Debug/_error.txt
 Debug/_log.txt
+
+Settings/instrumentList.json
